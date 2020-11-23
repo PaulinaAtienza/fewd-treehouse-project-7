@@ -12,15 +12,17 @@
         "main";
 }
 
-.header {
+header {
+    display: flex;
+    flex-direction: row;
     grid-area: header;
 }
 
-.navigation {
+nav {
     grid-area: navigation;
 }
 
-.main {
+main {
     display: grid;
     grid-area: main;
 }
