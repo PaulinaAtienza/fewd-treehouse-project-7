@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
@@ -11,16 +19,38 @@
 header {
     display: flex;
     flex-direction: row;
+    background-color: #7477bf;
+    color: #ffffff;
     grid-area: header;
 }
 
+.user-info {
+    display: inline;
+    float: right;
+}
+
 nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #4d4c72;
     grid-area: navigation;
+}
+
+.main-header, 
+.traffic-header {
+    display: flex;
+    flex-direction: row;
 }
 
 main {
     display: grid;
     grid-area: main;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
 
 .widget-container-full, 
