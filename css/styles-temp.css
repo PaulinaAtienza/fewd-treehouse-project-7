@@ -24,6 +24,10 @@ header {
     padding: 15px 10px;
 }
 
+.header-not-bold {
+    font-weight: lighter;
+}
+
 h1 {
     float: left;
 }
@@ -32,7 +36,9 @@ h1 {
     display: flex;
     flex-direction: row;
     float: right;
+    margin: 0.67em 0;
 }
+
 
 nav {
     display: flex;
