@@ -74,6 +74,21 @@ main {
     flex-direction: row;
 }
 
+.traffic-nav li, 
+.traffic-nav a {
+    display: inline;
+}
+
+.traffic-nav li {
+    padding: 0 10px;
+}
+
+.active {
+    background-color: #81c98f;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
 .profile-image {
     border-radius: 50%;
     height: 40px;
@@ -90,7 +105,7 @@ main {
 .facebook, 
 .google-plus {
     display: block;
-    margin: 5px auto;
+    padding: auto;
     height: 65px;
     width: 65px;
 }
