@@ -69,10 +69,30 @@ main {
     flex-direction: row;
 }
 
+.traffic-header {
+    display: flex;
+    flex-direction: row;
+}
+
 .profile-image {
     border-radius: 50%;
     height: 40px;
     width: 40px;
+}
+.social-image {
+    height: 100px;
+    width: 100px;
+    background-color: #7477bf;
+    border-radius: 50%;
+}
+
+.twitter, 
+.facebook, 
+.google-plus {
+    display: block;
+    margin: 5px auto;
+    height: 65px;
+    width: 65px;
 }
 
 .widget-container-full, 
