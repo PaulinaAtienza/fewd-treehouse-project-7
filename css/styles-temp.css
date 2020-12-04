@@ -94,20 +94,24 @@ main {
     height: 40px;
     width: 40px;
 }
+
 .social-image {
-    height: 100px;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 85px;
     background-color: #7477bf;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .twitter, 
 .facebook, 
 .google-plus {
     display: block;
-    padding: auto;
-    height: 65px;
-    width: 65px;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
 }
 
 .widget-container-full, 
