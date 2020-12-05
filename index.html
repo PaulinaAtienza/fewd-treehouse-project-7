@@ -15,7 +15,7 @@
     <header>
         <h1>Your<span class="header-not-bold">App&trade;</span></h1>
         <div class="user-info">
-          <div>
+          <div class="bell-icon">
             <svg width="30" height="30" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
               <style type="text/css">
@@ -30,13 +30,15 @@
             </svg>
             <div></div>
           </div>
-          <img src="images/user-picture.jpg" alt="Jane's profile picture" class="profile-image">
+          <div class="border">
+            <img src="images/user-picture.jpg" alt="Jane's profile picture" class="profile-image user-image">
+          </div>
           <h3 class="your-name">Jane Doe</h3>
         </div>
     </header>
     <nav>
-        <a>
-          <img src="icons/icon-dashboard.svg" alt="Dashboard icon" class="nav-icon">
+        <a class="active-link">
+          <img src="icons/icon-dashboard.svg" alt="Dashboard icon" class="nav-icon active">
         </a>
         <a>
           <img src="icons/icon-members.svg" alt="Members icon" class="nav-icon">
@@ -66,7 +68,7 @@
           <ul class="traffic-nav">
             <li class="traffic-nav-link">Hourly</li>
             <li class="traffic-nav-link">Daily</li>
-            <li class="traffic-nav-link active">Weekly</li>
+            <li class="traffic-nav-link active-chart">Weekly</li>
             <li class="traffic-nav-link">Monthly</li>
           </ul>
         </div>
