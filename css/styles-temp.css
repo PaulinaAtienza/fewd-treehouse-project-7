@@ -6,6 +6,7 @@ body {
     font-family: 'Hind Siliguri', sans-serif;
     text-align: center;
     overflow: auto;
+    color: #4e4e4e;
 }
 
 .grid-container {
@@ -94,6 +95,14 @@ main {
     flex-direction: row;
 }
 
+.padding {
+    padding: 0 5px;
+}
+
+.border-bottom {
+    border-bottom: 2px #e9e9e9 solid;
+}
+
 .headline {
     font-size: 1.17em;
     flex-basis: 34%;
@@ -111,13 +120,10 @@ main {
     display: flex;
     flex-basis: 66%;
     flex-direction: row;
+    align-items: center;
     background-color: #fbfbfb;
     border-bottom: 2px #e9e9e9 solid;
     border-left: 2px #e9e9e9 solid;
-}
-
-.traffic {
-    padding: 0 15px;
 }
 
 .traffic-header {
@@ -171,11 +177,19 @@ main h3 {
 .social-image {
     display: flex;
     align-items: center;
-    height: 85px;
-    width: 85px;
+    float: left;
+    height: 60px;
+    width: 60px;
     background-color: #7477bf;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 8px 25px;
+}
+
+.social-info {
+    background-color: #fbfbfb;
+    border: 2px #e9e9e9 solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .twitter, 
@@ -183,13 +197,35 @@ main h3 {
 .google-plus {
     display: block;
     margin: 0 auto;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+.social-text {
+    text-align: left;
+}
+
+.media {
+    color: #7477bf;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.number {
+    font-size: 2.5em;
+    margin: 0 auto;
 }
 
 .widget-container-full, 
 .widget-container-half {
     width: 95vw;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* @media (min-width: 768px) {
