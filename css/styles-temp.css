@@ -108,10 +108,12 @@ main {
     text-align: center;
 }
 
-#search {
+#search, 
+#userField, 
+#messageField, 
+#timezone {
     border: 2px #e9e9e9 solid;
     border-radius: 5px;
-    margin: 10px;
     padding: 5px 10px;
     font-size: .75em;
 }
@@ -268,6 +270,32 @@ main h3 {
 .widget-container-full, 
 .widget-container-half {
     width: 95vw;
+}
+
+.widget-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-primary, 
+.button-disabled {
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+.button-primary {
+    background-color: #7477bf;
+}
+
+.button-disabled {
+    background-color: #b2b2b2;
+}
+
+.settings-button {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr;
 }
 
 .clearfix::after {
