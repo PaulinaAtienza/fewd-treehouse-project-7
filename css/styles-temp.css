@@ -278,7 +278,8 @@ main h3 {
 }
 
 #userField, 
-#messageField {
+#messageField, 
+#timezone {
     margin-bottom: 1em;
 }
 
@@ -291,6 +292,8 @@ main h3 {
     color: #ffffff;
     border: none;
     border-radius: 3px;
+    margin-bottom: 1em;
+    padding: 10px 0;
 }
 
 .button-primary {
@@ -299,12 +302,6 @@ main h3 {
 
 .button-disabled {
     background-color: #b2b2b2;
-}
-
-.button-primary, 
-.button-disabled {
-    margin-bottom: 1em;
-    padding: 10px 0;
 }
 
 .settings {
@@ -365,6 +362,21 @@ input:checked + .slider:before {
   
 .round:before {
     border-radius: 50%;
+}
+
+.settings label {
+    font-size: .75em;
+}
+
+.email-notification, 
+.profile-setting {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.toggle {
+    margin: auto;
 }
 
 .settings-button {

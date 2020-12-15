@@ -231,14 +231,24 @@
       <!-- local settings widget -->
       <section class="settings padding">
         <h3>Settings</h3>
-        <label class="switch">
-          <input type="checkbox">
-          <span class="slider round">Send Email Notifications</span>
-        </label>
-        <label class="switch">
-          <input type="checkbox">
-          <span class="slider round">Set Profile to Public</span>
-        </label>        
+        <div class="email-notification">
+          <label for="email">Send Email Notification</label>
+          <div class="toggle">
+              <label class="switch">
+                  <input type="checkbox" id="email">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+        </div>
+        <div class="profile-setting">
+          <label for="public-profile">Set Profile to Public</label>
+          <div class="toggle">
+              <label class="switch">
+                  <input type="checkbox" id="public-profile">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+        </div>      
         <select class="form-field" id="timezone">
           <option disabled selected>Select a Timezone</option>
           <option>Eastern</option>
