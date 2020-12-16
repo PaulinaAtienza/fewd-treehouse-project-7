@@ -95,7 +95,7 @@ main {
 }
 
 .padding {
-    padding: 0 5px;
+    padding: 0 5px 1em;
 }
 
 .border-bottom {
@@ -176,6 +176,21 @@ main h3 {
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+
+#alert {
+    color: #ffffff;
+    background-color: #7477bf;
+    border-radius: 5px;
+    font-size: .75em;
+    padding: 0 10px;
+    margin: 1em 5px;
+}
+
+.alert-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .social-container > h3 {

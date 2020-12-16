@@ -2,10 +2,10 @@
 
 const alertBanner = document.getElementById('alert');
 
-alert.Banner.innerHTML = 
+alertBanner.innerHTML = 
     `
     <div class="alert-banner">
-        <p><strong>Alert:</strong> You have <strong>6</strong> overdue tasks to complete</p>
+        <p><strong>Alert:</strong> You have <strong>6</strong> overdue tasks to complete.</p>
         <p class="alert-banner-close">x</p>
     </div>
     `
@@ -13,11 +13,13 @@ alert.Banner.innerHTML =
 alertBanner.addEventListener('click', e => {
     const element = e.target;
     if (element.classList.contains('alert-banner-close')) {
-        alert.style.display = 'none';
+        alertBanner.style.display = 'none';
     }
 });
 
 // Chart Widgets
+
+const trafficCanvas = document.getElementById('traffic-chart');
 
 let trafficData = {
     labels: ['16-22', '23-29', '30-5', '6-12', '13-19', '20-26', '27-3', '4-10', '11-17', '18-24', '25-31'],
