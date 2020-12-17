@@ -95,7 +95,11 @@ main {
 }
 
 .padding {
-    padding: 0 5px 1em;
+    padding: 0 5px;
+}
+
+.padding-bottom {
+    padding-bottom: 1em;
 }
 
 .border-bottom {
@@ -197,6 +201,10 @@ main h3 {
     text-align: left;
 }
 
+.social-container > .social-info:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .social-image {
     float: left;
     height: 60px;
@@ -214,7 +222,6 @@ main h3 {
     background-color: #fbfbfb;
     border: 2px #e9e9e9 solid;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 
 .twitter, 
@@ -312,7 +319,6 @@ main h3 {
     color: #ffffff;
     border: none;
     border-radius: 3px;
-    margin-bottom: 1em;
     padding: 10px 0;
 }
 

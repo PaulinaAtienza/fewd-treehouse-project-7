@@ -1,3 +1,7 @@
+// Bell Notifications
+
+const bellIcon = document.getElementsByClassName('bell-icon');
+
 // Alert Banner
 
 const alertBanner = document.getElementById('alert');
