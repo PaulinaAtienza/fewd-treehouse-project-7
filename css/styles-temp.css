@@ -45,8 +45,27 @@ h1 {
     margin: 0.67em 0;
 }
 
-.bell-icon {
+.notifications {
     padding: 22px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bell-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.bell-icon:hover {
+    animation: ring 4s .7s ease-in-out;
+    transform-origin: 50% 4px;
+}
+
+.notification-alert {
+    background-color: #85db81;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
 }
 
 .border {
