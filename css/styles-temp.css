@@ -468,6 +468,18 @@ input:checked + .slider:before {
             "navigation main";
     }
 
+    header {
+        height: 75px;
+    }
+
+    h1 {
+        margin: 23px 0;
+    }
+
+    .user-info {
+        margin: 0.2em 0;
+    }
+
     nav {
         flex-direction: column;
     }
@@ -482,6 +494,23 @@ input:checked + .slider:before {
         height: 45px;
         width: 3px;
         border-radius: 0 3px 3px 0;
+    }
+
+    .main-header {
+        padding-left: 15px;
+    }
+
+    .headline {
+        font-size: 1.375em;
+        text-align: left;
+    }
+
+    .padding {
+        padding: 0 15px;
+    }
+
+    #alert {
+        margin: 1em 15px;
     }
 }
 
