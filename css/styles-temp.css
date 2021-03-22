@@ -516,6 +516,28 @@ input:checked + .slider:before {
     #alert {
         margin: 1em 15px;
     }
+
+    .members-info, 
+    .members-activity {
+        font-size: .85em;
+    }
+
+    .members .profile-image, 
+    .activity .profile-image {
+        height: 35px;
+        width: 35px;
+    }
+
+    #search, 
+    #userField, 
+    #messageField, 
+    #timezone {
+        font-size: .95em;
+    }
+
+    .settings label {
+        font-size: .95em;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -548,5 +570,9 @@ input:checked + .slider:before {
 
     .widget-container-half {
         width: 45vw;
+    }
+
+    .message {
+        border-bottom: none;
     }
 }
