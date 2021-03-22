@@ -509,6 +509,10 @@ input:checked + .slider:before {
         padding: 0 15px;
     }
 
+    .padding-bottom {
+        padding-bottom: 1em;
+    }
+
     #alert {
         margin: 1em 15px;
     }
@@ -519,8 +523,10 @@ input:checked + .slider:before {
         grid-template-columns: 50%;
     }
 
+    .main-header, 
+    .alert, 
     .traffic, 
-    .social {
+    .social-container {
         grid-column: 1 / span 2;
     }
 
